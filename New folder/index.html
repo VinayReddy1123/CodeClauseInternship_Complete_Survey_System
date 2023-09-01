@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="survey-icon.png" alt="Survey Icon">
+            <span>Survey System</span>
+        </div>
+    </header>
+    
+    <main>
+        <form id="survey-form">
+            <h1>Survey Title</h1>
+            <p>Thank you for participating in our survey.</p>
+            <div class="question">
+                <label for="q1">Question 1:</label>
+                <input type="text" id="q1" name="question1">
+            </div>
+            <div class="question">
+                <label for="q2">Question 2:</label>
+                <input type="text" id="q2" name="question2">
+            </div>
+            <div class="question">
+                <label for="q3">Question 3:</label>
+                <textarea id="q3" name="question3" rows="4"></textarea>
+            </div>
+            <!-- Add more questions here -->
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Survey System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
